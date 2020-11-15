@@ -1,0 +1,37 @@
+# Task /home/users/sduarte/tutorials/OSU-MicroBenchmarks/build.intel/libexec/osu-micro-benchmarks/mpi/one-sided/osu_get_bw run # MPI @ Tue Nov 10 19:23:13 CET 2020 by:
+#      srun -n 2 /home/users/sduarte/tutorials/OSU-MicroBenchmarks/build.intel/libexec/osu-micro-benchmarks/mpi/one-sided/osu_get_bw
+#
+# SLURM_JOBID        2129931
+# SLURM_JOB_NODELIST iris-[151,165]
+# SLURM_NNODES       2
+# SLURM_NTASKS       2
+# SLURM_SUBMIT_DIR   /mnt/irisgpfs/users/sduarte/tutorials/OSU-MicroBenchmarks/runs
+### Starting timestamp: 1605032593
+# OSU MPI_Get Bandwidth Test v5.5
+# Window creation: MPI_Win_allocate
+# Synchronization: MPI_Win_flush
+# Size      Bandwidth (MB/s)
+1                       1.18
+2                       3.52
+4                       7.75
+8                      16.48
+16                     32.28
+32                     64.98
+64                    130.11
+128                   259.40
+256                   513.60
+512                   994.78
+1024                 1953.37
+2048                 3538.59
+4096                 5846.29
+8192                 8221.57
+16384                8365.28
+32768                8981.10
+65536                8807.98
+131072               9115.00
+262144               2760.79
+524288               3713.07
+1048576              4478.27
+2097152              5005.14
+4194304              5322.63
+### Ending timestamp:     1605032596

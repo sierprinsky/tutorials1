@@ -1,0 +1,14 @@
+SLURM_JOBID  = 2135744
+SLURM_JOB_NODELIST = iris-[075,091]
+SLURM_NNODES = 2
+SLURM_NTASKS = 56
+SLURMTMPDIR  = 
+Submission directory = /mnt/irisgpfs/users/sduarte/tutorials/HPL/runs
+HPL ERROR from process # 0, on line 299 of function HPL_pdinfo:
+>>> cannot open file HPL.dat <<<
+
+srun: error: iris-075: task 0: Segmentation fault
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2135744.0 ON iris-075 CANCELLED AT 2020-11-15T02:45:48 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2135744 ON iris-075 CANCELLED AT 2020-11-15T02:45:48 DUE TO TIME LIMIT ***
+srun: error: iris-091: tasks 28-55: Terminated

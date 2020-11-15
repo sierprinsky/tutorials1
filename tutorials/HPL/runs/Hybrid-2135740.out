@@ -1,0 +1,3 @@
+/var/lib/slurmd/job2135740/slurm_script: line 52: ${SLURM_NTASKS}/${$SLURM_NNODES}: bad substitution
+(standard_in) 1: syntax error
+*** ERROR *** Unable to find the generated executable /home/users/sduarte/tutorials/HPL/src/hpl-2.3/bin/openmpi_hello_hybrid

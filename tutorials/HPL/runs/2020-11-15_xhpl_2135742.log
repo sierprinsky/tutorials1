@@ -1,0 +1,16 @@
+# Task /home/users/sduarte/tutorials/HPL/src/hpl-2.3/bin/intel64/xhpl run # MPI @ Sun Nov 15 01:44:12 CET 2020 by:
+#      srun -n 56 /home/users/sduarte/tutorials/HPL/src/hpl-2.3/bin/intel64/xhpl
+#
+# SLURM_JOBID        2135742
+# SLURM_JOB_NODELIST iris-[114,119]
+# SLURM_NNODES       2
+# SLURM_NTASKS       56
+# SLURM_SUBMIT_DIR   /mnt/irisgpfs/users/sduarte/tutorials/HPL/runs
+### Starting timestamp: 1605401052
+HPL ERROR from process # 0, on line 299 of function HPL_pdinfo:
+>>> cannot open file HPL.dat <<<
+
+srun: error: iris-114: task 0: Segmentation fault
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2135742.0 ON iris-114 CANCELLED AT 2020-11-15T02:44:18 DUE TO TIME LIMIT ***
+srun: error: iris-119: tasks 28-55: Terminated

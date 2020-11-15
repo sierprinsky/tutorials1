@@ -1,0 +1,49 @@
+osu_hello.o: \
+ ../../../src/osu-micro-benchmarks-5.5/mpi/startup/osu_hello.c \
+ /usr/include/stdc-predef.h \
+ /opt/apps/resif/data/production/v1.2-20191021/default/software/mpi/OpenMPI/3.1.4-GCC-8.2.0-2.31.1/include/mpi.h \
+ /mnt/irisgpfs/apps/resif/data/production/v1.2-20191021/default/software/compiler/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include/stddef.h \
+ /opt/apps/resif/data/production/v1.2-20191021/default/software/mpi/OpenMPI/3.1.4-GCC-8.2.0-2.31.1/include/mpi_portable_platform.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /mnt/irisgpfs/apps/resif/data/production/v1.2-20191021/default/software/compiler/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+
+/usr/include/stdc-predef.h:
+
+/opt/apps/resif/data/production/v1.2-20191021/default/software/mpi/OpenMPI/3.1.4-GCC-8.2.0-2.31.1/include/mpi.h:
+
+/mnt/irisgpfs/apps/resif/data/production/v1.2-20191021/default/software/compiler/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include/stddef.h:
+
+/opt/apps/resif/data/production/v1.2-20191021/default/software/mpi/OpenMPI/3.1.4-GCC-8.2.0-2.31.1/include/mpi_portable_platform.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/mnt/irisgpfs/apps/resif/data/production/v1.2-20191021/default/software/compiler/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:

@@ -1,0 +1,33 @@
+SLURM_JOBID  = 2129947
+SLURM_JOB_NODELIST = iris-[019,021]
+SLURM_NNODES = 2
+SLURM_NTASKS = 2
+SLURMTMPDIR  = 
+Submission directory = /mnt/irisgpfs/users/sduarte/tutorials/OSU-MicroBenchmarks/runs
+# OSU MPI_Get latency Test v5.5
+# Window creation: MPI_Win_allocate
+# Synchronization: MPI_Win_flush
+# Size          Latency (us)
+1                       2.14
+2                       2.15
+4                       2.17
+8                       2.23
+16                      2.15
+32                      2.22
+64                      2.17
+128                     2.25
+256                     2.31
+512                     2.26
+1024                    2.45
+2048                    2.81
+4096                    3.72
+8192                    4.99
+16384                   7.08
+32768                   6.36
+65536                  10.11
+131072                 15.99
+262144                 27.55
+524288                 50.33
+1048576                96.40
+2097152               190.72
+4194304               367.27
